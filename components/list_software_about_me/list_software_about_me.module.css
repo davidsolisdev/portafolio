@@ -1,0 +1,14 @@
+.container_lists {
+  @apply flex flex-row flex-wrap;
+}
+
+.item_list {
+  @apply mt-4;
+  font-size: clamp(0.98em, 1.45vw, 1.05em);
+}
+
+@media (max-width: 900px) {
+  .item_list {
+    font-size: clamp(0.8em, 1.45vw, 1.05em);
+  }
+}

@@ -1,0 +1,118 @@
+/* FIRA CODE */
+@font-face {
+  font-family: "fira-code";
+  src: url(/Fira_code/FiraCode-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "fira-code";
+  src: url(/Fira_code/FiraCode-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "fira-code";
+  src: url(/Fira_code/FiraCode-Bold.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* VOLLKORN */
+@font-face {
+  font-family: "vollkorn";
+  src: url(/vollkorn/Vollkorn-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "vollkorn";
+  src: url(/vollkorn/Vollkorn-Bold.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "vollkorn";
+  src: url(/vollkorn/Vollkorn-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "vollkorn";
+  src: url(/vollkorn/Vollkorn-Italic.ttf);
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "vollkorn";
+  src: url(/vollkorn/Vollkorn-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Playfair Display */
+@font-face {
+  font-family: "playfair-display";
+  src: url(/Playfair_Display/PlayfairDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "playfair-display";
+  src: url(/Playfair_Display/PlayfairDisplay-Bold.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "playfair-display";
+  src: url(/Playfair_Display/PlayfairDisplay-Italic.ttf);
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "playfair-display";
+  src: url(/Playfair_Display/PlayfairDisplay-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Aplicando Fuentes */
+body {
+  font-family: vollkorn;
+  font-weight: normal;
+}
+
+p {
+  font-family: vollkorn;
+  font-weight: normal;
+  color: #c4c4c4;
+}
+
+h1 {
+  font-family: playfair-display;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: playfair-display;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: playfair-display;
+  font-weight: bold;
+}
+
+a {
+  font-family: fira-code;
+  font-weight: normal;
+}

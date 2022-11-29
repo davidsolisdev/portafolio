@@ -1,0 +1,138 @@
+.header {
+  @apply flex flex-row flex-wrap items-center justify-center w-full h-[70px] bg-[#262626];
+  position: fixed;
+  z-index: 2;
+}
+
+.header_logo_container {
+  @apply w-[20%] h-full flex flex-row flex-wrap items-center justify-around;
+}
+
+.header_content {
+  @apply flex flex-row flex-wrap items-center justify-between w-[90%] h-full;
+}
+
+.header_option_container {
+  @apply flex flex-row justify-around w-[50%];
+}
+
+.menu_mobile_icon {
+  width: 50px;
+  @apply h-full justify-center items-center;
+  display: none;
+  flex-flow: row wrap;
+}
+
+.hidde_nav {
+  top: -150px;
+  animation-name: hiddeNav;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.visible_nav {
+  top: 0px;
+  animation-name: visibleNav;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.shadow_nav {
+  box-shadow: 0px 1px 5px black;
+}
+
+.icon_header {
+  @apply h-[25px] w-[25px] mt-[6px];
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.icon_header:hover {
+  transform: scale(1.2, 1.2);
+}
+
+@keyframes hiddeNav {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: -150px;
+  }
+}
+
+@keyframes visibleNav {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header_option_container {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 1075px) {
+  .header_option_container {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 940px) {
+  .header_option_container {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 885px) {
+  .header_content {
+    width: 95% !important;
+  }
+}
+
+@media (max-width: 775px) {
+  .header_content {
+    width: 99% !important;
+  }
+  .header_option_container {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column !important;
+    height: 100px !important;
+  }
+  .header_logo_container {
+    height: 62px;
+    width: 100% !important;
+  }
+  .header_option_container {
+    height: 38px;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: row !important;
+    height: 50px !important;
+  }
+  .header_logo_container {
+    height: 100% !important;
+    width: 30% !important;
+  }
+  .header_option_container {
+    display: none;
+  }
+  .menu_mobile_icon {
+    display: flex;
+  }
+}

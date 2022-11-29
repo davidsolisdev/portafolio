@@ -1,0 +1,56 @@
+.dockerImage_continer {
+  @apply w-[110px] h-[110px] cursor-pointer;
+}
+
+.gitImage_container {
+  @apply w-[110px] h-[48px] cursor-pointer;
+}
+
+.htmlImage_container {
+  @apply w-[80px] h-[80px] cursor-pointer;
+}
+
+.cssImage_container {
+  @apply w-[80px] h-[80px] cursor-pointer;
+}
+
+.dockerImage_continer:hover,
+.gitImage_container:hover,
+.htmlImage_container:hover,
+.cssImage_container:hover {
+  transition: all 200ms linear;
+  transform: scale(1.1, 1.1);
+}
+
+.dockerImage_continer:not(:hover),
+.gitImage_container:not(:hover),
+.htmlImage_container:not(:hover),
+.cssImage_container:not(:hover) {
+  transition: all 200ms linear;
+  transform: scale(1, 1);
+}
+
+@media (max-width: 926px) {
+  .dockerImage_continer {
+    @apply w-[110px] h-[110px];
+    width: 90px;
+    height: 90px;
+  }
+
+  .gitImage_container {
+    @apply w-[110px] h-[48px];
+    width: 90px;
+    height: 43px;
+  }
+
+  .htmlImage_container {
+    @apply w-[80px] h-[80px];
+    width: 70px;
+    height: 70px;
+  }
+
+  .cssImage_container {
+    width: 70px;
+    height: 70px;
+  }
+}
