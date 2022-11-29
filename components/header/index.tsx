@@ -67,11 +67,13 @@ function Header() {
             />
           </article>
           <article className={style.menu_mobile_icon}>
-            <div
-              className="w-[70%] h-[90%] bg-contain bg-no-repeat bg-center cursor-pointer"
-              style={{ backgroundImage: "url(/menu.png)" }}
-              onClick={() => dispatch(toggleOpenDrawer(!openDrawer))}
-            ></div>
+            {false && (
+              <div
+                className="w-[70%] h-[90%] bg-contain bg-no-repeat bg-center cursor-pointer"
+                style={{ backgroundImage: "url(/menu.png)" }}
+                onClick={() => dispatch(toggleOpenDrawer(!openDrawer))}
+              ></div>
+            )}
           </article>
         </section>
       </header>
