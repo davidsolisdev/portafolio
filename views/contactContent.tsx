@@ -38,7 +38,7 @@ function ContactContent() {
     }
 
     const respuesta: Response = await fetch(
-      "http://davidsolis.dev:3005/contact-me",
+      "https://api.davidsolis.dev/contact-me",
       {
         headers: { "Content-Type": "application/json" },
         method: "POST",
