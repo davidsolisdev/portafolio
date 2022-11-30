@@ -51,6 +51,11 @@ function ContactContent() {
       return;
     }
 
+    setMessageContact({
+      name: "",
+      email: "",
+      message: "",
+    });
     Swal.fire("Email enviado correctamente", "", "success");
   }
 
