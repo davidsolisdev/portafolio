@@ -1,0 +1,14 @@
+.item_container {
+  @apply w-[80%] m-auto flex flex-row flex-wrap items-center justify-around pt-3 pb-3;
+}
+
+.item_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.item_text {
+  width: calc(100% - 55px);
+  vertical-align: middle;
+  margin-top: 2px;
+}

@@ -1,0 +1,13 @@
+.projects_page_container {
+  @apply w-full flex flex-row flex-wrap justify-around;
+  width: 95%;
+  max-width: 1200px !important;
+  margin: 0px auto;
+  padding-top: 90px;
+  min-height: 72.3vh;
+  height: auto;
+}
+
+.projects_container {
+  @apply w-full flex flex-row flex-wrap justify-around;
+}

@@ -1,0 +1,21 @@
+.body_content {
+  width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+@media (max-width: 1250px) {
+  .body_content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+}

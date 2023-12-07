@@ -1,0 +1,4 @@
+.time_line_container {
+  @apply relative border-l border-t-0 border-r-0 border-b-0 border-solid border-gray-200 list-none;
+  list-style-type: none;
+}
